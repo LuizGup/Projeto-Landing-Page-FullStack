@@ -1,6 +1,34 @@
+nav {
+    font-family: 'Inter', sans-serif;
+}
+#header1 {
+    background-color: #02182B;
+    color: #FFFBFF;
+}
+#imglogo{
+    width: 100px;
+}
+
 #sec1 {
     background-color: #0D2B59;
 }
 #sec2 {
     background-color: #0D2B59;
+}
+
+.mgr1 {
+    margin-right: 160px !important;
+}
+.mgr2{
+    margin-right: 70px !important;
+}
+.mgl1 {
+    margin-left: 150px !important;
+}
+.mgl2{
+    margin-left: 70px !important;
+}
+
+#btnind{
+    clip-path: polygon(0 0, 100% calc(10% - 12px), 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%);
 }
