@@ -1,12 +1,17 @@
 nav {
     font-family: 'Inter', sans-serif;
 }
-#header1 {
-    background-color: #02182B;
-    color: #FFFBFF;
+#navIndex {
+    background-color: #02182B !important;
+    color: #FFFBFF !important;
+    text-align: left;
+}
+.navbarIndex {
+    width: 90px !important;
+    height: 40px;
 }
 #imglogo{
-    width: 120px;
+    width: 120px ;
 }
 
 #sec1 {
