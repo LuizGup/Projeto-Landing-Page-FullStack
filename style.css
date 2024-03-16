@@ -14,6 +14,38 @@ nav {
     width: 120px ;
 }
 
+ .nav-link {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    color: #FFFBFF !important;
+    font-size: 20px !important;
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 100%;
+    background: #40FFAA;
+    transform: scaleX(0);
+    transition: transform 0.5s ease;
+    position: absolute;
+    left: 0;
+}
+.nav-link:hover{
+    color: #40FFAA;
+}
+.nav-link:hover::after {
+    transform: scaleX(1);
+}
+
+#btnind{
+    font-size: 20px !important;
+    clip-path: polygon(0 0, 100% calc(10% - 12px), 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%);
+}
+
 #sec1 {
     background-color: #0D2B59;
 }
@@ -34,6 +66,3 @@ nav {
     margin-left: 70px !important;
 }
 
-#btnind{
-    clip-path: polygon(0 0, 100% calc(10% - 12px), 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%);
-}
