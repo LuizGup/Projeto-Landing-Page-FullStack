@@ -20,6 +20,7 @@ nav {
     display: inline-block;
     color: #FFFBFF !important;
     font-size: 20px !important;
+    transition: transform 0.1s ease;
 }
 
 .nav-link::after {
@@ -35,10 +36,20 @@ nav {
     left: 0;
 }
 .nav-link:hover{
-    color: #40FFAA;
+    transition: 0.5s ease;
 }
 .nav-link:hover::after {
     transform: scaleX(1);
+    transition: 0.5s ease;
+}
+.nav-link:active{
+    color: rgba(255, 255, 255, 0) !important;
+    transform: translateY(10px);
+    transition: 0.1s ease;
+
+}.nav-link:active::after{
+    transform: translateY(-10px);
+    transition: 0.1s ease;
 }
 
 #btnind{
@@ -77,6 +88,11 @@ nav {
 
 .imgLogoIndex{
     animation: rodar 30s linear infinite;
+    width: 40%;
 }
 .imgLogoIndex2{
-top: -20%;}
+    width: 25%;
+}
+#containerImgs{
+    object-fit: cover;
+}
