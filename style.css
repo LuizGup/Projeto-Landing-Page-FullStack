@@ -66,3 +66,17 @@ nav {
     margin-left: 70px !important;
 }
 
+@keyframes rodar {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.imgLogoIndex{
+    animation: rodar 30s linear infinite;
+}
+.imgLogoIndex2{
+top: -20%;}
