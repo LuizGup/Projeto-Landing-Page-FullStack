@@ -3,6 +3,7 @@ nav {
 }
 #navIndex {
     background-color: #02182B !important;
+    background: linear-gradient(#02182B 80%, #0D2B59 100%);
     color: #FFFBFF !important;
     text-align: left;
 }
@@ -11,7 +12,8 @@ nav {
     height: 40px;
 }
 #imglogo{
-    width: 120px ;
+    width: 120px;
+    margin-bottom: 25px !important;
 }
 
  .nav-link {
@@ -75,6 +77,9 @@ nav {
 }
 .mgl2{
     margin-left: 70px !important;
+}
+.mt-5{
+    margin-top: 50px !important;
 }
 
 @keyframes rodar {
