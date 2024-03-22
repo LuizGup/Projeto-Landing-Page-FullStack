@@ -7,19 +7,21 @@ nav {
 }
 
 .navbar {
-    background: linear-gradient(#030812 80%, #02182B 100%);
     color: #FFFBFF;
     text-align: left;
+    transition: 0.3s ease-in-out;
+
 }
 
 .navbar.scrolled {
     background: #030812 !important;
     box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5) !important;
-    /* Adiciona sombra */
+    transition: 0.2s ease-in-out;
 }
 
 #sec1 {
     color: #FFFBFF;
+    background: linear-gradient( #030812 1%, #02182B 5%);
 }
 
 .sec1h1 {
