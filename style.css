@@ -154,11 +154,14 @@ nav {
     width: 100px !important;
     transition: 0.5s ease-in-out;
     opacity: 0;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.5) !important; /* Adiciona sombra */
 }
 .imgsec2:hover{
     /* margin: 10px !important; */
     width: 120px !important;
     transition: 0.5s ease-in-out;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8) !important; /* Adiciona sombra */
+
 }
 
 @keyframes fadeInUp {
