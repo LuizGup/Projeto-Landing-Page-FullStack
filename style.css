@@ -1,9 +1,11 @@
-body{
+body {
     background-color: #030812;
 }
+
 nav {
     font-family: 'Inter', sans-serif;
 }
+
 .navbar {
     background: linear-gradient(#030812 80%, #02182B 100%);
     color: #FFFBFF;
@@ -12,8 +14,9 @@ nav {
 
 .navbar.scrolled {
     background: #030812 !important;
-    box-shadow: 0 5px 4px rgba(0,0,0,0.5) !important; /* Adiciona sombra */
-  }
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5) !important;
+    /* Adiciona sombra */
+}
 
 #sec1 {
     color: #FFFBFF;
@@ -31,7 +34,8 @@ nav {
     width: 50px;
     height: auto;
 }
-.bordersec1{
+
+.bordersec1 {
     background-color: #042541;
 }
 
@@ -150,35 +154,41 @@ nav {
 #containerImgs {
     object-fit: cover;
 }
-.imgsec2{
+
+.imgsec2 {
     width: 100px !important;
     transition: 0.5s ease-in-out;
     opacity: 0;
-    box-shadow: 3px 3px 4px rgba(0,0,0,0.5) !important; /* Adiciona sombra */
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5) !important;
+    /* Adiciona sombra */
 }
-.imgsec2:hover{
+
+.imgsec2:hover {
     /* margin: 10px !important; */
     width: 120px !important;
     transition: 0.5s ease-in-out;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.8) !important; /* Adiciona sombra */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8) !important;
+    /* Adiciona sombra */
 
 }
 
 @keyframes fadeInUp {
     from {
-      transform: translateY(20px);
-      opacity: 0;
+        transform: translateY(20px);
+        opacity: 0;
     }
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
 
-  .fadeInUp {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.fadeInUp {
     opacity: 0;
     animation-name: fadeInUp;
     animation-fill-mode: forwards;
     animation-duration: 1s;
-    animation-delay: 1s; /* Ajuste este valor conforme necessário */
-  }
+    animation-delay: 1s;
+    /* Ajuste este valor conforme necessário */
+}
