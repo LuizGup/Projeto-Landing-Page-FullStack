@@ -1,22 +1,42 @@
 nav {
     font-family: 'Inter', sans-serif;
 }
+
+#sec1 {
+    color: #FFFBFF;
+}
+
+.sec1h1 {
+    color: #FCA311;
+}
+
+.fullstackpersonalcolor {
+    color: #FCA311;
+}
+
+.imgsec1 {
+    width: 50px;
+    height: auto;
+}
+
 #navIndex {
-    background-color: #02182B !important;
-    background: linear-gradient(#02182B 80%, #0D2B59 100%);
+    background-color: #030812 !important;
+    background: linear-gradient(#030812 80%, #02182B 100%);
     color: #FFFBFF !important;
     text-align: left;
 }
+
 .navbarIndex {
     width: 90px !important;
     height: 40px;
 }
-#imglogo{
+
+#imglogo {
     width: 120px;
     margin-bottom: 25px !important;
 }
 
- .nav-link {
+.nav-link {
     text-decoration: none;
     position: relative;
     display: inline-block;
@@ -31,73 +51,86 @@ nav {
     margin: auto;
     height: 3px;
     width: 100%;
-    background: #40FFAA;
+    background: #FCA311;
     transform: scaleX(0);
     transition: transform 0.5s ease;
     position: absolute;
     left: 0;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     transition: 0.5s ease;
 }
+
 .nav-link:hover::after {
     transform: scaleX(1);
     transition: 0.5s ease;
 }
-.nav-link:active{
+
+.nav-link:active {
     color: rgba(255, 255, 255, 0) !important;
     transform: translateY(10px);
     transition: 0.1s ease;
 
-}.nav-link:active::after{
+}
+
+.nav-link:active::after {
     transform: translateY(-10px);
     transition: 0.1s ease;
 }
 
-#btnind{
+#btnind {
     font-size: 20px !important;
     clip-path: polygon(0 0, 100% calc(10% - 12px), 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%);
 }
 
 #sec1 {
-    background-color: #0D2B59;
+    background-color: #02182B;
 }
+
 #sec2 {
-    background-color: #0D2B59;
+    background-color: #02182B;
 }
 
 .mgr1 {
     margin-right: 160px !important;
 }
-.mgr2{
+
+.mgr2 {
     margin-right: 70px !important;
 }
+
 .mgl1 {
     margin-left: 150px !important;
 }
-.mgl2{
+
+.mgl2 {
     margin-left: 70px !important;
 }
-.mt-5{
+
+.mt-5 {
     margin-top: 50px !important;
 }
 
 @keyframes rodar {
-    from{
+    from {
         transform: rotate(0deg);
     }
-    to{
+
+    to {
         transform: rotate(360deg);
     }
 }
 
-.imgLogoIndex{
+.imgLogoIndex {
     animation: rodar 30s linear infinite;
     width: 40%;
 }
-.imgLogoIndex2{
+
+.imgLogoIndex2 {
     width: 25%;
 }
-#containerImgs{
+
+#containerImgs {
     object-fit: cover;
 }
