@@ -10,18 +10,34 @@ nav {
     color: #FFFBFF;
     text-align: left;
     transition: 0.3s ease-in-out;
-
 }
+#imglogo {
+    width: 150px;
+    margin-bottom: 25px !important;
+    transition: 1s ease-in-out;
+}
+
 
 .navbar.scrolled {
-    background: #030812 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: rgba(3, 8, 18, 0.8) !important;
     box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5) !important;
     transition: 0.2s ease-in-out;
+    backdrop-filter: blur(3px);
+
+    & #imglogo {
+        width: 120px;
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+        transition: 0.2s ease-in-out;
+    }
 }
+
 
 #sec1 {
     color: #FFFBFF;
-    background: linear-gradient( #030812 1%, #02182B 5%);
+    background: linear-gradient(#030812 1%, #02182B 5%);
 }
 
 .sec1h1 {
@@ -53,10 +69,7 @@ nav {
     height: 40px;
 }
 
-#imglogo {
-    width: 120px;
-    margin-bottom: 25px !important;
-}
+
 
 .nav-link {
     text-decoration: none;
