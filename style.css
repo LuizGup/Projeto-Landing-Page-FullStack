@@ -186,6 +186,13 @@ nav {
 }
 .h5section2{
     opacity: 0;
+    transition: 0.5s ease-in-out;
+
+}
+.imgsec2:hover + .h5section2{
+opacity: 1;
+transition: 0.5s ease-in-out;
+
 }
 
 @keyframes fadeInUp {
