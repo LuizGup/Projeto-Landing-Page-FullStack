@@ -11,6 +11,7 @@ nav {
     text-align: left;
     transition: 0.3s ease-in-out;
 }
+
 #imglogo {
     width: 150px;
     margin-bottom: 25px !important;
@@ -184,14 +185,16 @@ nav {
     transition: 0.5s ease-in-out;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8) !important;
 }
-.h5section2{
+
+.h5section2 {
     opacity: 0;
     transition: 0.5s ease-in-out;
 
 }
-.imgsec2:hover + .h5section2{
-opacity: 1;
-transition: 0.5s ease-in-out;
+
+.imgsec2:hover+.h5section2 {
+    opacity: 1;
+    transition: 0.5s ease-in-out;
 
 }
 
@@ -213,5 +216,4 @@ transition: 0.5s ease-in-out;
     animation-fill-mode: forwards;
     animation-duration: 1s;
     animation-delay: 1s;
-    /* Ajuste este valor conforme necessário */
 }
