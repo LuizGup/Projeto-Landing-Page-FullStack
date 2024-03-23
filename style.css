@@ -124,6 +124,7 @@ nav {
 }
 
 #sec2 {
+    color: #FFFBFF;
     background-color: #02182B;
 }
 
@@ -171,7 +172,7 @@ nav {
 }
 
 .imgsec2 {
-    width: 100px !important;
+    width: 200px !important;
     transition: 0.5s ease-in-out;
     opacity: 0;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5) !important;
@@ -179,12 +180,12 @@ nav {
 }
 
 .imgsec2:hover {
-    /* margin: 10px !important; */
-    width: 120px !important;
+    width: 220px !important;
     transition: 0.5s ease-in-out;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8) !important;
-    /* Adiciona sombra */
-
+}
+.h5section2{
+    opacity: 0;
 }
 
 @keyframes fadeInUp {
